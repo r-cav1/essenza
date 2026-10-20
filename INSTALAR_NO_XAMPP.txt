@@ -1,0 +1,36 @@
+ESSENZA — ALPHA 1.8.1 — INSTALAÇÃO RÁPIDA
+
+1. Extraia o conteúdo deste ZIP dentro de C:\xampp.
+
+2. Confirme que existem estas duas pastas:
+   C:\xampp\htdocs\salao
+   C:\xampp\salao_app
+
+3. Inicie Apache e MySQL no XAMPP.
+
+4. Em uma instalação nova, importe pelo phpMyAdmin:
+   C:\xampp\salao_app\database\banco.sql
+
+5. Página pública de demonstração:
+   http://localhost/salao/?salao=studio-demo
+
+6. Painel:
+   http://localhost/salao/painel/login.php
+
+   Identificador: studio-demo
+   Senha: demo123
+
+ATUALIZAÇÃO
+----------
+Se você já utiliza uma versão anterior, mantenha seu banco e aplique as
+migrações indicadas no final de banco.sql quando necessário. Faça backup do
+banco antes de atualizar uma instalação com dados importantes.
+
+E-MAIL
+------
+O SMTP vem DESATIVADO por padrão. Nada precisa ser configurado para continuar
+usando o modo de teste local.
+
+Para ativar o envio real, leia CONFIGURAR_EMAIL.md.
+Configuração: C:\xampp\salao_app\config\email.php
+Diagnóstico:  C:\xampp\salao_app\logs\email.log

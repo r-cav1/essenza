@@ -1,0 +1,2 @@
+O arquivo email.log será criado automaticamente quando o Essenza tentar enviar um e-mail.
+Não coloque credenciais nesta pasta.
